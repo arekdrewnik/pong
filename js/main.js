@@ -88,7 +88,7 @@ var Game = {
 
 		// -----------------------------------------------------------
 
-		var buttonPlay = document.querySelectorAll('.buttonPlay');
+		var buttonPlay = Array.from( document.querySelectorAll('.buttonPlay') );
 
 		for(var i =0;i<buttonPlay.length; i++){
 
